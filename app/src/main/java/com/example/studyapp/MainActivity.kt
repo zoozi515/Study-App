@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         val kotlin_button = findViewById<Button>(R.id.kotlin_button)
         kotlin_button.setOnClickListener{
             moveToNextActivity(1)
-
         }
 
         val android_button = findViewById<Button>(R.id.android_button)
